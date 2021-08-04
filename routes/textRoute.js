@@ -18,7 +18,7 @@ router.get("/:textId/count", getCountWordText);
 
 router.get("/:textId/count/:language", getCountWordTextByLanguage);
 
-router.post("/search?", getTextBySearch);
+router.get("/search", getTextBySearch);
 
 router.get("/mostOccurrent", getMostOccurentWord);
 

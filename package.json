@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/textRoute.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "mocha": "^9.0.3",
     "mongoose": "^5.13.2",
     "mongoose-fuzzy-searching": "^2.0.2"
   }
